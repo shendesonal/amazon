@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suitefacebook">
+  <test  name="Test">
+  <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="maven.TestNG"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suitefacebook -->

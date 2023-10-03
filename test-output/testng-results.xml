@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-21T13:19:03 IST" name="Suitefacebook" finished-at="2022-09-21T13:19:03 IST" duration-ms="50">
+    <groups>
+    </groups>
+    <test started-at="2022-09-21T13:19:03 IST" name="Test" finished-at="2022-09-21T13:19:03 IST" duration-ms="50">
+      <class name="maven.TestNG">
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:maven.TestNG@666b83a4]" started-at="2022-09-21T13:19:03 IST" name="launchbrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1663746543192" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchbrowser.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchbrowser.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method is-config="true" signature="createpomobjects()[pri:0, instance:maven.TestNG@666b83a4]" started-at="2022-09-21T13:19:03 IST" name="createpomobjects" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1663746543218" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createpomobjects -->
+        <test-method is-config="true" signature="openfacebook()[pri:0, instance:maven.TestNG@666b83a4]" started-at="2022-09-21T13:19:03 IST" name="openfacebook" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1663746543229" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openfacebook -->
+        <test-method signature="verifygoback()[pri:0, instance:maven.TestNG@666b83a4]" started-at="2022-09-21T13:19:03 IST" name="verifygoback" finished-at="2022-09-21T13:19:03 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchbrowser.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchbrowser.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifygoback -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:maven.TestNG@666b83a4]" started-at="2022-09-21T13:19:03 IST" name="logout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1663746543233" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="nullobject()[pri:0, instance:maven.TestNG@666b83a4]" started-at="2022-09-21T13:19:03 IST" name="nullobject" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1663746543235" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nullobject -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:maven.TestNG@666b83a4]" started-at="2022-09-21T13:19:03 IST" name="closebrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1663746543237" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- maven.TestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suitefacebook -->
+</testng-results>
